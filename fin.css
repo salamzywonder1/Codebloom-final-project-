@@ -1,0 +1,84 @@
+ 
+@media only screen and (min-width: 1440px){
+ body{
+   font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+}
+
+@media only screen and (max-width: 350px){
+ body{
+     
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+}
+img{
+    width: 270px;
+    height: 120px;
+    padding-buttom:0px;
+}
+.email {
+    height: 45px;
+    width: 250px;
+}
+
+.circle-check li {
+  list-style: none;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 10px;
+}
+
+.circle-check li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: green;        /* Circle background color */
+  color: white;             /* Check color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #ff6915;
+}
+
+.but{
+    background-color:hsl(234, 29%, 20%);
+    color: White;
+    height: 40px;
+    width: 250px;
+    border-radius:5px;
+}
+.but:active {
+    background-image: linear-gradient(to right,#ff40bd, #ff5f2b);
+}
+
+.bod{
+  background: hsl(235, 18%, 26%);
+  height: 100vh;       /* full screen */
+  padding: 0px 30px;       /* this creates the blue space showing around the white box */
+  display: flex;
+  justify-content: center;  /* center left-right */
+  align-items: center;       /* center up-down */
+  
+}
+
+.main {
+  background: white;
+  width: 98%;           /* size of white box */
+  height: 80%;
+  border-radius: 10px;  /* optional rounded corners */
+}
+body{
+    margin:0px;
+}
